@@ -1,4 +1,4 @@
-My personal configuration for mpv
+My personal configuration for mpv, based on DonCanjas's mpv config.
 --------------------
 This is a set of dotfiles for mpv, including some scripts. Not all scripts are included, but I'll list all of them down below.
 
