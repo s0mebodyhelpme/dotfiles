@@ -99,6 +99,7 @@ fi
 read -n1 -rep 'Would you like to copy config files? (y,n)' CFG
 if [[ $CFG == "Y" || $CFG == "y" ]]; then
     echo -e "Copying config files...\n"
+    cp -R ./dotfiles/kitty ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/dunst ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/hypr ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/alacritty ~/.config/ 2>&1 | tee -a $LOG
