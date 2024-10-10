@@ -169,3 +169,5 @@ if [[ $HYP =~ ^[Yy]$ ]]; then
 else
     exit
 fi
+
+mkdir -p $HOME/.icons/
