@@ -76,7 +76,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     font_pkgs="kitty ttf-nerd-fonts-symbols-common otf-firamono-nerd inter-font otf-sora ttf-fantasque-nerd noto-fonts noto-fonts-emoji ttf-comfortaa"
     font_pkgs2="ttf-jetbrains-mono-nerd fcitx5 ttf-icomoon-feather ttf-iosevka-nerd adobe-source-code-pro-fonts ttf-firacode-nerd"
     app_pkgs="vesktop-git firefox brightnessctl dunst swaybg sddm wl-clipboard wf-recorder rofi-lbonn-wayland-git rofi-emoji wlogout"
-    app_pkgs2="nwg-look qt5ct btop jq gvfs ffmpegthumbs mousepad mpv mpv-mpris neovim playerctl pamixer noise-suppression-for-voice xarchiver wttr"
+    app_pkgs2="nwg-look eza qt5ct btop jq gvfs ffmpegthumbs mousepad mpv mpv-mpris neovim playerctl pamixer noise-suppression-for-voice xarchiver wttr"
     app_pkgs3="polkit-gnome zsh zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search catppuccin-cursors-mocha catppuccin-gtk-theme-mocha zsh-theme-powerlevel10k ffmpeg neovim viewnior pavucontrol thunar ffmpegthumbnailer tumbler thunar-archive-plugin xdg-user-dirs gowall"
     
 
@@ -102,7 +102,6 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     cp -R ./dotfiles/kitty ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/dunst ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/hypr ~/.config/ 2>&1 | tee -a $LOG
-    cp -R ./dotfiles/alacritty ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/pipewire ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/rofi ~/.config/ 2>&1 | tee -a $LOG
     cp -R ./dotfiles/waybar ~/.config/ 2>&1 | tee -a $LOG
