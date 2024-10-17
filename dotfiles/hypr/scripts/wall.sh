@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/Pictures/wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/gowall"
 INDEX_FILE="$HOME/.wallpaper_index"
 
 if [ ! -f "$INDEX_FILE" ]; then
@@ -11,8 +11,8 @@ fi
 mapfile -t WALLPAPERS < <(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.bmp' -o -iname '*.gif' \))
 TOTAL_WALLPAPERS=${#WALLPAPERS[@]}
 
-# Terminate any running swaybg processes
-killall swaybg
+# Terminate any running swww processes
+# killall swww
 
 # Read the current index from the index file
 CURRENT_INDEX=$(cat "$INDEX_FILE")
@@ -30,7 +30,7 @@ case "$1" in
     ;;
   set)
     CURRENT_WALLPAPER="${WALLPAPERS[$CURRENT_INDEX]}"
-    swaybg -i "$CURRENT_WALLPAPER" -m fill &
+    swww img "$CURRENT_WALLPAPER" --transition-bezier .43,1.19,1,.4 --transition-type "grow" --transition-duration 0.4 --transition-fps 60 --invert-y --transition-pos "$(hyprctl cursorpos | grep -E '^[0-9]' || echo "0,0")" &
     notify-send "Wallpaper changed" "$(basename "$CURRENT_WALLPAPER")"
     exit 0
     ;;
@@ -47,9 +47,9 @@ echo "$CURRENT_INDEX" > "$INDEX_FILE"
 CURRENT_WALLPAPER="${WALLPAPERS[$CURRENT_INDEX]}"
 
 # Set the new wallpaper
-swaybg -i "$CURRENT_WALLPAPER" -m fill &
+swww img "$CURRENT_WALLPAPER" --transition-bezier .43,1.19,1,.4 --transition-type "grow" --transition-duration 0.4 --transition-fps 60 --invert-y --transition-pos "$(hyprctl cursorpos | grep -E '^[0-9]' || echo "0,0")" &
 
-# Wait for a short period to ensure swaybg has set the wallpaper
+# Wait for a short period to ensure swww has set the wallpaper
 sleep 0.1
 
 # Send notification with the filename
