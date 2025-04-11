@@ -29,3 +29,68 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
+
+Bundled license information:
+
+negotiator/index.js:
+  /*!
+   * negotiator
+   * Copyright(c) 2012 Federico Romero
+   * Copyright(c) 2012-2014 Isaac Z. Schlueter
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   */
+
+mime-db/index.js:
+  /*!
+   * mime-db
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   */
+
+mime-types/index.js:
+  /*!
+   * mime-types
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   */
+
+accepts/index.js:
+  /*!
+   * accepts
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   */
+
+base64id/lib/base64id.js:
+  /*!
+   * base64id v0.1.0
+   */
+
+engine.io/build/parser-v3/utf8.js:
+  /*! https://mths.be/utf8js v2.1.2 by @mathias */
+
+cookie/index.js:
+  /*!
+   * cookie
+   * Copyright(c) 2012-2014 Roman Shtylman
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   */
+
+object-assign/index.js:
+  /*
+  object-assign
+  (c) Sindre Sorhus
+  @license MIT
+  */
+
+vary/index.js:
+  /*!
+   * vary
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   */

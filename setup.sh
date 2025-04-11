@@ -72,7 +72,7 @@ if [[ $inst =~ ^[Nn]$ ]]; then
 if [[ $INST == "Y" || $INST == "y" ]]; then
 
     git_pkgs="grimblast-git waybar-git"
-    hypr_pkgs="hyprland-git hyprpicker-git hypridle-git hyprlock-git"    
+    hypr_pkgs="hyprland hyprpicker hypridle hyprlock xdg-desktop-portal-hyprland"    
     font_pkgs="eza ttf-nerd-fonts-symbols-common otf-firamono-nerd inter-font otf-sora ttf-fantasque-nerd noto-fonts noto-fonts-emoji ttf-comfortaa"
     font_pkgs2="ttf-jetbrains-mono-nerd ttf-icomoon-feather ttf-iosevka-nerd adobe-source-code-pro-fonts ttf-firacode-nerd"
     app_pkgs="brightnessctl dunst swww-git kitty wl-clipboard wf-recorder rofi-wayland rofi-emoji wlogout python-requests gowall libreoffice-fresh"

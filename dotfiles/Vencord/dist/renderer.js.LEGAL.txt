@@ -55,3 +55,143 @@ virtual-merge/dist/index.mjs:
    * Copyright (c) 2023 Vendicated
    * SPDX-License-Identifier: MIT
    */
+
+buttplug/dist/main/src/core/Logging.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+reflect-metadata/Reflect.js:
+  /*! *****************************************************************************
+  Copyright (C) Microsoft. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+  this file except in compliance with the License. You may obtain a copy of the
+  License at http://www.apache.org/licenses/LICENSE-2.0
+  
+  THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+  WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+  MERCHANTABLITY OR NON-INFRINGEMENT.
+  
+  See the Apache Version 2.0 License for specific language governing permissions
+  and limitations under the License.
+  ***************************************************************************** */
+
+buttplug/dist/main/src/core/Messages.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/core/Exceptions.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/core/MessageUtils.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/ButtplugClientDevice.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/utils/ButtplugMessageSorter.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/ButtplugClientConnectorException.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/Client.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/utils/ButtplugBrowserWebsocketConnector.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/ButtplugBrowserWebsocketClientConnector.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/ButtplugNodeWebsocketClientConnector.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/client/IButtplugClientConnector.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+buttplug/dist/main/src/index.js:
+  /*!
+   * Buttplug JS Source Code File - Visit https://buttplug.io for more info about
+   * the project. Licensed under the BSD 3-Clause license. See LICENSE file in the
+   * project root for full license information.
+   *
+   * @copyright Copyright (c) Nonpolynomial Labs LLC. All rights reserved.
+   */
+
+moment/moment.js:
+  //! moment.js
+  //! version : 2.30.1
+  //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
+  //! license : MIT
+  //! momentjs.com
